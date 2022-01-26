@@ -1,5 +1,5 @@
 ---
-title: "A collaborative website with git and Hugo by Fernando"
+title: "Reflection Statement"
 date: 2022-01-26T13:57:19-07:00
 draft: true
 author: "Fernando Romero"
