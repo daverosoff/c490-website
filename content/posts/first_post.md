@@ -98,13 +98,25 @@ install it, too, but this is simplest for a single-user system.)
 
 Visit the website repo on GitHub at
 [https://github.com/daverosoff/c490-website](https://github.com/daverosoff/c490-website)
-and fork the site. Clone your fork (with SSH!) to your local machine. Then,
-navigate in the shell to your clone and open the top-level directory of the
-clone (probably called `c490-website`, unless you chose to rename it) in VS Code.
-In the Editors pane you should see directories called `archetypes`, `content`,
-`data`, `layouts`, etc. Open up the `content/posts` directory. You should see the
-first post that I wrote this morning, called `first_post.md`. Back in your
-shell, make sure you are still in the c490-website directory and go
+and fork the site. Clone your fork (with SSH!) to your local machine.
+
+After you do the clone step, there is one additional step needed to get
+everything set up. This git repository has a *git submodule* that needs
+to be initialized:
+
+```
+git submodule update --init themes/ananke
+```
+
+Submodules are how you can embed other git repos into your own. This one is a
+Hugo theme that isn't provided by the base Hugo package. After you have
+initialized your submodule, navigate in the shell to your clone and open the
+top-level directory of the clone (probably called `c490-website`, unless you
+chose to rename it) in VS Code. In the Editors pane you should see directories
+called `archetypes`, `content`, `data`, `layouts`, etc. Open up the
+`content/posts` directory. You should see the first post that I wrote this
+morning, called `first_post.md`. Back in your shell, make sure you are still in
+the c490-website directory and go
 
 ```
 hugo new posts/your-post-name.md
