@@ -50,12 +50,192 @@ learning the Linux command line, we used another [Ryan's Tutorial](https://ryans
 After completing this tutorial and completing the assigned projects in class, 
 I feel confident that I can create helpful bash scripts. In the future, I can
 see myself using these skills both professionally and personally to automate
-certain command line tasks. 
+certain command line tasks. Our four projects in bash scripting were the
+following:
 
-
-```md
-
+1. `create_new_user.sh`
 ```
+#!/bin/bash
+
+# Creates a new user account
+# Prompts for login/username, 
+# full name, and temporary password;
+# if entered user does not already exist,
+# then creates account
+
+# test for root
+if [[ ${UID} -ne 0 ]]; then
+    echo "error: not run as root"
+    exit 1
+fi
+
+# Get user name
+PROMPT="Enter the username to create: "
+read -p "${PROMPT}" USER_NAME
+
+# Does user exist?
+id -u "${USER_NAME}"
+if [[ $? -eq 0 ]]; then
+    echo "error: user exists"
+    # Repeatedly reprompt for new user name using a while loop
+    while [[ $? -eq 0 ]]; do
+        read -p "${PROMPT}" USER_NAME
+    done
+fi
+
+# Get full name
+read -p "Enter the full name of the new user: " COMMENT
+# Get temp password
+read -p "Enter the initial password of the new user: " PASSWORD
+
+# Create user
+# useradd -c "${COMMENT}" -m "${USER_NAME}" (not for mac!)
+dscl . -create /Users/"${USER_NAME}"
+dscl . -create /Users/"${USER_NAME}" RealName "${COMMENT}"
+
+# password functions created unexpected outcomes on MacOs
+
+exit 0
+```
+2. `find_big_files.sh`
+```
+#!/bin/bash
+
+# Prints the sizes (in human-readable form) and names of the 5 largest items—files 
+# or subdirectories—in a directory. Script should allow the user to enter a path on
+# the command line, and default to the current directory if they don't
+
+# Setting the directory
+if [[ $# -eq 0 ]]; then
+    DIRECTORY="."
+elif [[ $# -eq 1 ]]; then
+    DIRECTORY=$1
+else
+    echo "error: more than 1 argument"
+    exit 3
+fi
+
+# check that directory exists; if not, exit immediately with error code 1
+if [[ ! -d "$DIRECTORY" ]]; then
+    # Control will enter here if $DIRECTORY doesn't exist.
+    echo "error: directory does not exist"
+    exit 1
+fi
+
+# check that we have read and execute permission on directory; if not, exit immediately with error code 2
+if [[ ! -r "$DIRECTORY" ]] || [[ ! -x "$DIRECTORY" ]]; then
+    echo "error: does not have both read and execute permission on directory"
+    exit 2
+fi
+
+# Print the sizes
+du -A -ha "${DIRECTORY}"| sort -hr | tail -n+2 | head -5 # exclude the total
+
+exit 0
+```
+3. `test_urls.sh`
+```
+#!/bin/bash
+
+# Reads URLs from a file (without validating them) and tests 
+# whether they are responding to requests using `curl` or `wget` 
+
+#check that argument list is nonempty; if not, emit a usage message "Usage: testurls FILE" and exist with error code 1
+if [[ $# -eq 0 ]]; then
+    echo "Usage: testurls FILE"
+    exit 1
+elif [[ $# -eq 1 ]]; then
+    FILE=$1
+else
+    echo "error: more than 1 argument"
+    exit 3
+fi
+# check that first argument is the path to a file that exists; if not, emit an error message "Not found: $1" and exit 
+# immediately with error code 2
+if [[ ! -e "$FILE" ]]; then
+    # Control will enter here if $FILE doesn't exist.
+    echo "Not found: $1"
+    exit 2
+fi
+# check that we have read permission on the first argument; if not, emit an error message "Permission denied: $1" and 
+# exit immediately with error code 2
+if [[ ! -r "$FILE" ]]; then
+    echo "Permission denied: $1"
+    exit 2
+fi
+
+# use a while loop to read urls from the file and test them one by one with `curl` or `wget`. Don't forget to redirect
+# unwanted output to >/dev/null. If you are still getting output, look in the man pages for options that will make `curl`
+# or `wget` quieter. To achieve reading from a file with `while`, you will need to redirect input to the whole `while`
+# construction as demonstrated on Monday Jan 10.
+
+awk 'NF' "$FILE" | while read -r line || [[ -n "$line" ]] # using awk to trim blank lines 
+do
+    curl -s "$line" >/dev/null
+    if [[ $? -ne 0 ]]; then
+        echo "'$line' not responding to requests."
+    fi
+done
+
+# Finally, exit explicitly with exit code 0 for success.
+
+exit 0
+```
+4. `fix_symlinks.sh`
+```
+#!/bin/bash
+
+# This script finds all symlinks underneath a given directory
+# that are named 'Library' and checks to see if the link target is
+# /opt/webwork/libraries/webwork-open-problem-library/OpenProblemLibrary
+
+# If not, overwrites the symlink with a correct target.
+
+goodlink="/opt/webwork/libraries/webwork-open-problem-library/OpenProblemLibrary"
+
+# Test if any command line arguments are present
+# If so, use $1 as the working directory
+# otherwise set working directory to "."
+
+if [[ $# -eq 0 ]]; then
+    DIRECTORY="."
+elif [[ $# -eq 1 ]]; then
+    DIRECTORY=$1
+else
+    echo "error: more than one argument"
+    exit 1
+fi
+
+
+# A function definition to overwrite a bad link with a good one
+
+function fixlink {
+    # use the command `readlink` to get the link target of the first function arg
+    # save it in a variable
+    # test to see if it is equal to $goodlink
+    # if yes, do nothing
+    # if no, use the command `ln -sf` to overwrite the existing link with a new one
+    LINK_SOURCE=$(readlink "$1")
+    if [[ ${LINK_SOURCE} != ${goodlink} ]]
+    then
+        # echo "Fixing link: ${LINK_SOURCE}"
+        ln -sf "$goodlink" "$1"
+    fi
+}
+
+# use a for loop over `$(find ...)` to execute fixlink function on each link
+# in any child of `$1`, skipping if it is good and repairing if it is bad
+
+#find . -type f -not -user www-data
+#for file in $(find . -not -user jsmith)
+for file in $(find "$DIRECTORY" -type l)
+do
+    fixlink "$file"
+done
+
+exit 0
+```
+
 
 ## **Vim & Z Shell**
 
