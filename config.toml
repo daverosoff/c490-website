@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'CSC-490 Experience Reflections'
+theme = "ananke"
