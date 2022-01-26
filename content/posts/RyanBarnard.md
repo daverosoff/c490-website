@@ -7,21 +7,56 @@ draft: true
 
 ## Introduction
 
-This page is a summary of the works that I completed in my
-CSC-490 class at The College of Idaho. This course was a special
-topics course that focused on command line use within WSL2, IDE 
+This page is a summary of the works that I completed in my CSC-490 class at The College of Idaho. 
+This course was a special topics course that focused on command line use within WSL2, IDE 
 use with Visual Studio Code, and the use of git version control.
 
 ## Using WSL2
 
-In this class I learned how to properly use the Windows Subsystem for Linux(WSL),
-to run Ubuntu 20.04 on my machine.
+In this class I learned how to properly use the Windows Subsystem for Linux(WSL), to run Ubuntu
+20.04 on my machine.
 
 ## Bash Scripting
 
-I also learned how to write scripts in bash. Some examples of scripts that I wrote
-include a script that allows the root user to create new users on the system, and a script
-to fix broken symlinks. 
+I also learned how to write scripts in bash. One example of a script
+that I wrote for this class is shown below. The purpose of this script is
+to read the URLS within a given file and check that they are valid URLs.
+
+```
+#!/bin/bash
+
+#Write a script that will test the URLS from a given file
+
+#Check that the argument list is non-empty
+if [[ "$#" -eq 0 ]]
+then
+	echo "Usage: ./testurls.sh FILE"
+	exit 1
+fi
+
+#Check that the file path exists and leads to a file
+if [[ ! -f "$1" ]]
+then
+	echo "Not found: $1"
+	exit 2
+fi
+
+#Check that the given file is readable
+if [[ ! -r "$1" ]]
+then
+	echo "Permission denied: $1"
+	exit 2
+fi
+
+#Read the file line by line and call curl to test each url.
+#Normal output is redirected to /dev/null, but we will still
+#See any errors that occur.
+while read -r line
+do
+   curl -sSf "$line" > /dev/null
+done < $1
+exit 0
+```
 
 ## Command Line Use
 
@@ -33,7 +68,7 @@ With zsh I learned how to load and use various plugins.
 I learned to be proficient with Vim for the purpose of having
 solid knowledge of a powerful text editor that I will have access
 to in almost any environment.
-![My Shell](/RyanBarnardShell.png)
+![My Shell](/RyanBarnardZsh.png)
 
 ## Version Control
 
