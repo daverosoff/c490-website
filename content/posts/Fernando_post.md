@@ -2,6 +2,7 @@
 title: "Reflection Statement"
 date: 2022-01-26T13:57:19-07:00
 author: "Fernando Romero"
+draft: true
 ---
 # Reflection statement.
 #####**Author:** Fernando Romero.
