@@ -4,7 +4,10 @@ author: Makenzie Stapley
 date: 2022-01-26T13:34:48-07:00
 draft: true
 ---
-This course was a valuable learning experience. I don't come from a CS background. I'm studying Math-Physics, and the only other formal CS course I've taken is CS1 my sophmore year. Thus, I'm essentially self-taught for all things coding. I was nervous about taking this course due to this inexperience, but I think I've learned skills in this course that will continue to be beneficial in the future. After working with Dr. Devine this summer, I know graduate school and a career in physics academia isn't in the cards for me. At least, I need some self-exploration in industry first. This realization has made me consider jobs in the computer science field after graduation.
 
+## My Background
 
+I don't come from a CS background. This is only me second formal CS course. I'm studying Math-Physics, so I haven't used credit space to take more than the minimum CS required by my major. However, CS is a big part of most sciences these days. Thus, I had to learn Python and use it in the research setting. After working with Dr. Devine this summer, I learned a few things about myself. First, graduate school and a career in physics academia isn't in the cards for me. At least, I need some self-exploration in industry first. Second, I have a knack for coding, and I enjoy the puzzles that come along with it. These new self discoveries have lead me to consider a career in computer science post-graduation.
+
+## CSC-490
 This course has given me skills and introduced me to tools that 
