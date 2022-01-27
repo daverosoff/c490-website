@@ -2,7 +2,7 @@
 title: "What we're doing here"
 date: 2022-01-26T08:03:22-07:00
 author: Dave Rosoff
-draft: true
+draft: false
 ---
 ## A summation of your work this term
 
