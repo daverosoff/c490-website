@@ -38,17 +38,14 @@ We started off by learning about Linux. [Ryan's Linux tutorial](https://ryanstut
 
 ### VScode
 ![VSCode logo](https://shanebart-cdn.azureedge.net/wp-content/uploads/2019/05/5k4h36j3h4j.png)
-<img src="5k4h36j3h4j.png" width="20" height="10">
+> I am now able to use VSCode more smoothly and able to custom and write some extentions as needed. One thing that I am working on to improve is to use the keyboard to move around instead of using the mouse pad. This class and thing tips and trick to make sure that I have a better experience while using VSCode.
 
+***
 ### Git
 ![GitHub logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
+> I learned how use Git using Linux and VSCode. Learning about Git would help me collaborate and work as a team in the real world. 
 
 
-
-- How has the experience helped you apply or transfer your learning to a new context?
-- How has the experience increased your curiosity or awareness about new ideas or techniques?
-- How has this classroom experience built upon the rest of your education?
-- In what ways has your learning empowered you to explore new parts of software development?
-- What aspect of the classroom experience contributed most to your learning, and why?
-- What new insights did you develop regarding your career plans as a result of this class?
-- How would you describe this class experience to a potential employer in a way that synthesizes knowledge and skills gained?
+***
+### Reflection
+>I had used Linux and the command lines in the past while I am doing the internship last summer and I did not understand much about the concept and meaning of it, mostly I was following instructions. But I know I can move around with the command lines. Working with terminal is very fun and this experience had increased my curiosity. I think I had the advanced compared to those who did not take the class. I think all of the topics above contributed to my learning experience. Now I can open and work on a project with VSCode. Pull, push and commnit to Github to work and colaborate with more people working at once and doesn't mess up someone works. I feel like this class is like an "internship", I gained tons of experience about coding and basesic skills to able to work with others developers. 
