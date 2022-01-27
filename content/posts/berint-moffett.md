@@ -1,7 +1,7 @@
 ---
 title: "Skills Necessary, Taught Not"
 date: 2022-01-27T13:23:10-07:00
-draft: true
+draft: false
 author: Berint Moffett
 ---
 
