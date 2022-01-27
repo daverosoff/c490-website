@@ -14,4 +14,6 @@ The second week of this class explored VS Code which is a code editor that, when
 
 Going into this semester, my previous two computer science classes dealt strictly with the programming language of Python and I found it very intriguing to see how the knowledge I gained from those classes would be improved upon by the material taught in this course. I can now manage my Python scripts within a shell or make use of the advantages to writing Python in VS Code opposed the less efficient code editors I had used in the past.
 
-My experiences from this class have made me feel a lot better about computer science classes I will take in the future. This course has 
+My experiences from this class have made me feel a lot better about computer science classes I will take in the future. Since I am a Junior this year and only recently changed my major, I was very anxious that I would be behind and have trouble staying up with the course work in my future classes. However, I feel that this class has given me a different outlook and I know feel much less nervous and more excited about my upcoming classes. 
+
+As mentioned before, I was most excited to see how useful the material taught throughout this class will be when applied to real world context. I enjoyed being able to
