@@ -1,0 +1,169 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<title>My educational experiences | CSC-490 Experience Reflections</title>
+<meta name=viewport content="width=device-width,minimum-scale=1">
+<meta name=description content="I was initially introduced to this as a suggestion from my professor last year. It was described as a rather fun class which wasn&rsquo;t a requirement for the major. I decided to take it because it sounded like something that would help stimulate my thinking sponge for a while since it promised so much variety in the topics related to computer science. Plus, it would probably be a million times no interesting than my last winter term course.">
+<meta name=generator content="Hugo 0.92.0">
+<meta name=ROBOTS content="NOINDEX, NOFOLLOW">
+<link rel=stylesheet href=/c490-website/ananke/css/main.min.css>
+<meta property="og:title" content="My educational experiences">
+<meta property="og:description" content="I was initially introduced to this as a suggestion from my professor last year. It was described as a rather fun class which wasn&rsquo;t a requirement for the major. I decided to take it because it sounded like something that would help stimulate my thinking sponge for a while since it promised so much variety in the topics related to computer science. Plus, it would probably be a million times no interesting than my last winter term course.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://daverosoff.github.io/c490-website/posts/brianmann/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2022-01-26T13:24:53-07:00">
+<meta property="article:modified_time" content="2022-01-26T13:24:53-07:00">
+<meta itemprop=name content="My educational experiences">
+<meta itemprop=description content="I was initially introduced to this as a suggestion from my professor last year. It was described as a rather fun class which wasn&rsquo;t a requirement for the major. I decided to take it because it sounded like something that would help stimulate my thinking sponge for a while since it promised so much variety in the topics related to computer science. Plus, it would probably be a million times no interesting than my last winter term course."><meta itemprop=datePublished content="2022-01-26T13:24:53-07:00">
+<meta itemprop=dateModified content="2022-01-26T13:24:53-07:00">
+<meta itemprop=wordCount content="1121">
+<meta itemprop=keywords content><meta name=twitter:card content="summary">
+<meta name=twitter:title content="My educational experiences">
+<meta name=twitter:description content="I was initially introduced to this as a suggestion from my professor last year. It was described as a rather fun class which wasn&rsquo;t a requirement for the major. I decided to take it because it sounded like something that would help stimulate my thinking sponge for a while since it promised so much variety in the topics related to computer science. Plus, it would probably be a million times no interesting than my last winter term course.">
+</head>
+<body class="ma0 avenir bg-near-white">
+<header>
+<div class=bg-black>
+<nav class="pv3 ph3 ph4-ns" role=navigation>
+<div class="flex-l justify-between items-center center">
+<a href=/c490-website/ class="f3 fw2 hover-white no-underline white-90 dib">
+CSC-490 Experience Reflections
+</a>
+<div class="flex-l items-center">
+<div class=ananke-socials>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<main class=pb7 role=main>
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+<header class="mt4 w-100">
+<aside class="instapaper_ignoref b helvetica tracked">
+POSTS
+</aside>
+<div id=sharing class="mt3 ananke-socials">
+</div>
+<h1 class="f1 athelas mt3 mb1">My educational experiences</h1>
+<p class=tracked>
+By <strong>
+Brian Mann
+</strong>
+</p>
+<time class="f6 mv4 dib tracked" datetime=2022-01-26T13:24:53-07:00>January 26, 2022</time>
+</header>
+<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>I was initially introduced to this as a suggestion from my professor last year. It was described as a rather fun class which wasn&rsquo;t a requirement for the major. I decided to take it because it sounded like something that would help stimulate my thinking sponge for a while since it promised so much variety in the topics related to computer science. Plus, it would probably be a million times no interesting than my last winter term course. Thankfully I wasn’t wrong, but I wasn’t entirely right either. I was definitely a new venture which pushed me into many unknowns and forced me to reassess my core understanding of how coding project&rsquo;s function, but the downside was I wanted more experience to further enhance my skills and to fully see what this knowledge could be applied to in the field. Though to understand why I felt this way its best to start with what occurred in class.</p>
+<p>During the course of my time in CSC-490, I learned the basics of the Linux operating system, Visual Studio Code, and the GitHub networking system. The first was in hindsight the easiest to pick up and understand. My only initial troubles were figuring out where it was on my computer, and a couple of coding assignments such as..</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>code goes here
+<span style=color:#75715e>#Check for nonempty argument</span>
+
+<span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> <span style=color:#e6db74>&#34;</span>$#<span style=color:#e6db74>&#34;</span> -eq <span style=color:#ae81ff>0</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+	echo <span style=color:#e6db74>&#34;Usage: testurls FILE&#34;</span>
+	exit <span style=color:#ae81ff>1</span>
+<span style=color:#66d9ef>fi</span>
+
+<span style=color:#75715e>#Check if first argument is path</span>
+<span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> ! -f <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+	echo <span style=color:#e6db74>&#34;Not Found: </span>$1<span style=color:#e6db74>&#34;</span>
+	exit <span style=color:#ae81ff>2</span>
+<span style=color:#66d9ef>fi</span>
+
+<span style=color:#75715e>#Check for read permission</span>
+<span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> ! -r <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+	echo <span style=color:#e6db74>&#34;Permission Denied: </span>$1<span style=color:#e6db74>&#34;</span>
+	exit <span style=color:#ae81ff>2</span>
+<span style=color:#66d9ef>fi</span>
+
+<span style=color:#75715e>#Read and test URLs</span>
+<span style=color:#66d9ef>while</span> read -r url; <span style=color:#66d9ef>do</span>
+  curl $url --output  /dev/null --silent --head --fail
+  <span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> <span style=color:#e6db74>&#34;</span>$?<span style=color:#e6db74>&#34;</span> -ne <span style=color:#ae81ff>0</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+	 echo <span style=color:#e6db74>&#34;</span>$url<span style=color:#e6db74> isn&#39;t accessible&#34;</span>
+  <span style=color:#66d9ef>fi</span> 
+<span style=color:#66d9ef>done</span> &lt; <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span>
+exit <span style=color:#ae81ff>0</span>
+
+and
+
+<span style=color:#75715e># Prints the names and sizes of the 5 biggest items (files/directories) in a given directory</span>
+
+PROMPT<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Enter path to file/directory you want to look at: &#34;</span>
+read -p <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>PROMPT<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> INPUT
+<span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> <span style=color:#e6db74>&#34;</span>$#<span style=color:#e6db74>&#34;</span> -eq <span style=color:#ae81ff>0</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+	PATHNAME<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;.&#34;</span>
+	cd $PATHNAME
+<span style=color:#66d9ef>else</span>
+	PATHNAME<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>INPUT<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+	cd $PATHNAME
+<span style=color:#66d9ef>fi</span>
+<span style=color:#75715e>#Check if directory exists</span>
+<span style=color:#66d9ef>if</span> ! <span style=color:#f92672>[[</span> -e <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>PATHNAME<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+	exit <span style=color:#ae81ff>1</span>
+
+<span style=color:#66d9ef>fi</span>
+<span style=color:#75715e>#Check if we have read and execute permissions</span>
+<span style=color:#66d9ef>if</span> ! <span style=color:#f92672>[[</span> -r <span style=color:#e6db74>&#34;</span>$PATHNAME<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span> <span style=color:#f92672>&amp;&amp;</span> !<span style=color:#f92672>[[</span> -x <span style=color:#e6db74>&#34;</span>$PATHNAME<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+	echo <span style=color:#e6db74>&#34;File does not have read and execute permissions for user&#34;</span>
+	exit <span style=color:#ae81ff>2</span>
+<span style=color:#66d9ef>else</span>
+<span style=color:#75715e>#Format items as &lt;file size&gt; , &lt;file name&gt;</span>
+	du -ha <span style=color:#e6db74>&#34;</span>$PATHNAME<span style=color:#e6db74>&#34;</span> | sort -rh | tail -n +2 | head -5
+<span style=color:#66d9ef>fi</span>
+exit <span style=color:#ae81ff>0</span>
+</code></pre></div><p>At the time I sort of understood the point of it. A built in means or creating and organizing the coding files we create, just through
+the means of a window terminal which requires code to navigate through and edit everything. Though admittedly I didn’t care much about
+it because of the primitive looking design. It made me feel like I was coding in the eighties. Though my views on it began to shift
+once we started to explore the other systems and how they contribute to one another.</p>
+<p>The next was Visual Studio Code, which I was ready for. I already had some experience with it from using it’s debugger feature last
+year, so it brough a nice sense of familiarity to the course while also offering something new. It felt like a modern coding software
+with its UI and various quality of life features. Such as the multiple shortcuts which help minimize usage of the mouse during coding
+sessions, the multiple font styles you can download to improve the readability of it to non-coders, and especially the debugging
+feature. It was a godsent back then to help me pinpoint the errors in my algorithms, and it will continue to be a godsent when I use it
+in future classes.</p>
+<p>One thing to note is how it made me realize the importance of Linux as an operating system with how the two interact with each other.
+It essentially allows users to create a workflow amongst themselves. Each person within their own Linux system creates chunks of code
+representing features of a much bigger program. Then they can share their programs with the other teammates via Visual Studio Code to
+help edit and debug it until it is perfect. Then they can save said changes and eventually implement it into the larger program.
+Though the last thing we learned really shook up how workflows can function.</p>
+<p>Git and subsequently GitHub are systems which essentially allow for developers to work on the same code but each person can add their
+own spin on it to see who’s is better. They do this by creating a repository to hold the files, then creating branches. These act as
+pointers for the same file, but whatever you do in one branch gets saved, while the other branch might stay exactly the same
+depending on if someone else edited the code themselves. If that version of the code works best with the rest of the project, they
+can merge that
+section into the main branch as part of the ever increasing project. While the other can still tinker with their branches to see if
+they can shifted into something else which could be added to the main branch.</p>
+<p>Then there was the server GitHub, which allowed you to share your repositories and code with people across the globe. Allowing for nigh
+infinite collaborative potential and possibilities for different ways to code the project which could make it much more intuitive and
+efficient.</p>
+<p>In general this class and the things I learned from it really made me think about how collaborative coding projects have functioned
+for me in the past and hoe they could function if more students were aware of the systems taught in this class. It made me think about
+if this class should actually be a required class for the major due to its potential for widespread implementation within the various
+fields of computer science. Given its proven capabilities as a means to create a more efficient workflow for coding projects, it has
+an unlimited amount of applicability for students working towards certain career paths. If changed into a required class, it opens the
+gates for the students of this school to become coding machines.</p>
+<p>Personally I don’t know if this has shifted what I want to do for my career as I still don’t have a clear direction for where I’ll go
+after I graduate. What I do know is I would be extremely interested in finding a way to convince my employer to implement these
+systems into whatever company workflow I become a part of, or at least work for a company that has this kind of workflow.</p>
+<ul class=pa0>
+</ul>
+<div class="mt6 instapaper_ignoref">
+</div>
+</div>
+<aside class="w-30-l mt6-l">
+</aside>
+</article>
+</main>
+<footer class="bg-black bottom-0 w-100 pa3" role=contentinfo>
+<div class="flex justify-between">
+<a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=http://daverosoff.github.io/c490-website>
+&copy; CSC-490 Experience Reflections 2022
+</a>
+<div>
+<div class=ananke-socials>
+</div></div>
+</div>
+</footer>
+</body>
+</html>
