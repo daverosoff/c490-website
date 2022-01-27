@@ -18,11 +18,19 @@ When I started programming in highschool I started with java, and then here at C
 Having had some experience with Typescript I had interacted with some HTML as well as JSON files prior to CS 490.
 ![Jet Brains Logo](/jetbrains_logo.jpg)
 # What I learned
-#### What I find the most applicable
-keybinding shortcuts (made me way faster)
-learning about git
+#### New Programs/Processes
+##### GitHub/Git
+This class was the first time that I've worked with GitHub and actually started learning what was going on behind the scenes with the Git Process. This was very interesting for me and I really enjoyed doing it. Having gotten a chance to learn about Git in this class has really increased my confidence in all aspects of version control. Which is good, because while working this summer, Git was something that my boss expected me to know and we used it almost every day.
+##### Advent of Code
+One of my favorite finds of this class was the discovery of the Advent of code series. I've found myself working on these projects throughout J term just as fun things to work on my programming skills and to become more familiar with VS code. I've also created a repository on my Github account that has all of my solutions in it. Allowing me to practice the idea of Version control while also working on these projects.
+##### Command line
+This was not my first time navigating through file systems via the command line, but I never expected that it would have become as comfortable as it has. I now feel more comfortable in navigating through my system via the command line as opposed to using file explorer. The installation of ZSH has been big for that, and I plan to use it as my default shell going forward for its auto-complete and auto-suggestions.
+##### Scripting
+This class was the first time that I had written a bash script and my first time using the VIM editor. I find it very cool how powerful those small scripts can be, and plan to write more in the future. I am especially glad for the discovery of VIM, in computer architecture, I had tried to write a machine language program in the default VI before and had struggled tremendously to even get it to let me type or save my progress. Now having used VIM I am much better and  
+- WSL
+- Shortcuts/Snippets
 Confidence with understanding what is happening (note going into registry to change default download settings for jpg images)
-#### What I found interesting
+###### What I found interesting
  - want to learn about HUGO and Markdown now, didnt love react js
  - note that your sure he had much more setup
 #### What I enjoyed learning about
