@@ -2,3 +2,5 @@ baseURL = 'http://daverosoff.github.io/c490-website'
 languageCode = 'en-us'
 title = 'CSC-490 Experience Reflections'
 theme = "ananke"
+[Params]
+    custom_css = ["css/custom.css"]
