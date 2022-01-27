@@ -8,13 +8,24 @@ draft: true
 ## Introduction
 
 This page is a summary of the works that I completed in my CSC-490 class at The College of Idaho. 
-This course was a special topics course that focused on command line use within WSL2, IDE 
-use with Visual Studio Code, and the use of git version control.
+This course was a special topics course that focused on the command line use within a linux environment in WSL2, IDE 
+use with Visual Studio Code, and the use of the git version control system. Though this course is not required
+for the computer science major, I was very excited to take it as I knew the planned topics would be provide
+very useful knowledge for anyone wanting to get into software development.
 
-## Using WSL2
 
-In this class I learned how to properly use the Windows Subsystem for Linux(WSL), to run Ubuntu
-20.04 on my machine.
+## Command Line Use
+
+In this class I learned not only how to navigate a linux 
+system from the command line, but how to do so proficiently.
+I began by using a bash shell, but eventually switched to using
+zsh where I was able to modify my shell to look exactly how I want.
+With zsh I also learned how to use a plugin manager to
+load and use various plugins. I learned to be proficient with
+Vim for the purpose of having solid knowledge of a powerful
+text editor that I will have access to in almost any environment.
+![My Shell](/RyanBarnardZsh.png)
+
 
 ## Bash Scripting
 
@@ -22,7 +33,7 @@ I also learned how to write scripts in bash. One example of a script
 that I wrote for this class is shown below. The purpose of this script is
 to read the URLS within a given file and check that they are valid URLs.
 
-```
+```bash
 #!/bin/bash
 
 #Write a script that will test the URLS from a given file
@@ -58,27 +69,24 @@ done < $1
 exit 0
 ```
 
-## Command Line Use
+I learned that bash scripts can be very powerful and very useful as
+they can be used to simplify a great number of tasks that could otherwise
+be quite time consuming.
 
-In this class I learned not only how to navigate a linux 
-system from the command line, but how to do so proficiently.
-I began by learning to use bash, but eventually switched to using
-zsh where I was able to modify my shell to look exactly how I want.
-With zsh I learned how to load and use various plugins.
-I learned to be proficient with Vim for the purpose of having
-solid knowledge of a powerful text editor that I will have access
-to in almost any environment.
-![My Shell](/RyanBarnardZsh.png)
 
 ## Version Control
 
 I learned how to effectively use git version control system to
-collaborate on projects.
+collaborate on projects and share them on github. In fact, I have
+already created a couple repositories that are posted on [my github page](https://github.com/RMBarnard).
+I am quite excited to now have the knowledge to use git as it opens up the
+opportunity for me to find open-source projects of interest to me and contribute to them.
+
 
 ## Visual Studio
 
 Having already been a Visual Studio Code user for a while, I was already quite
-familiar with the concepts related to VSC in class. I did, however, learn many
+familiar with much of the material we covered in class. I did, however, learn many
 new keyboard shortcuts to increase my efficiency by decreasing how much I need
 to use my mouse.
 I also learned how to write my own snippets so that I can have snippets in the
