@@ -11,9 +11,11 @@ The other side of the class was focused on Visual Studio (VS). I had some experi
 
 I never worked before on GitHub in the past, and I found this part of the term challenging since to set up the configurations to connect from my local machine to GitHub was quite difficult and confuse from the Linux terminal. But doing branchs, commits, push, pull, remote or clone from VS to GitHub was way easier to manipulate. Besides how challeging was git, I found this section of the semester really helpfull since I know this information will help me for future projects and specially jobs.
 
-### **Applying the learning to a new context.**
+### **Applying my learning to a new context.**
+Among all the information gained this winter term,this course provided me with new tools such as GitHub that are strongly used for many companies. Learning Linux and GitHub is helping me to build my portfolio that I will present to companies in future when I start applying for jobs. I think this is relevant becuase it will allow me to show my skills and effort put to build a strong portfolio.  
 
 ### **Curiosity and awareness about new ideas or techniques.**
+While we worked with Linux, I learned a couple of codes such that `chmod` that allow the user, group and others to `rwx` into a file or directory according to the access provided. I found this part really intersting becuase ths is a way to secure a file or directory from others. I want to say this is a very good tecninc  
 
 ### **Classroom experience contribution upon the rest of your education.**
 
