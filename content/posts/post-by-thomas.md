@@ -9,11 +9,11 @@ draft: true
 
 ## **Intro**
 
-The course CSC-490: Topics in Computer Science at The College of Idaho has been an extremely valuable and engaging course. Although many of the topics covered in this course were topics that I had previous experience in, I was able expand on all of my previous  experiences. Throughout the course, I was consistently learning something new and applying the newly-learned skills with realistic assignments. This is a class that I wish I had been able to take earlier in my college career because it covers many of the necessary skills that I had to learn on my own. I believe that this specific Topics in Computer Science course will be incredibly helpful to help prepare the underclassmen going into Computer Science and to help reinforce important skills for the upperclassmen. 
+The course CSC-490: Topics in Computer Science at The College of Idaho has been an extremely valuable and engaging course. Although many of the topics covered in this course were topics that I had previous experience in, I was able expand on all of my previous  experiences. Throughout the course, I was consistently learning something new and applying the newly-learned skills with realistic assignments. This is a class that I wish I had been able to take earlier in my college career because it covers many of the necessary skills that I had to learn on my own. I believe that this specific Topics in Computer Science course will be incredibly helpful to the underclassmen going into Computer Science and to the upperclassmen. For the upperclassmen, CSC-490 has helped reinforce important skills. 
 
 ## **Linux Command Line**
 
-Towards the beginning of this course, we started with learning about the Linux 
+Towards the beginning of this course, we began learning about the Linux 
 command line from the following online tutorial: [Ryan's Tutorials - Linux Tutorial](https://ryanstutorials.net/linuxtutorial/). 
 About three years ago I was involved in a research project at The College of Idaho that required me to have an understanding of the Linux command line.
 However, three years ago, I had no experience with the Linux command line at
@@ -22,13 +22,13 @@ command line for the research project that I was contributing to. Even though
 I had already progressed through the tutorial once, I was able to brush up on
 the commands that I had forgotten and learn some more complicated ones.  
 
-For my research project, I only learned some of the more basic commands and was not as comfortable using commands such as `grep` or `awk`. In the past, I was also not as experienced using regular expressions, piping, flags or redirection. After taking this course, I have a greater understanding of how the Linux command line functions and how to combine commands to create valuable output. One interesting website that we made use of to understand regular expressions is the [Regex Crossword](https://regexcrossword.com). This website has a variety of different regular expression crosswords in the following 
+For my research project, I only learned some of the more basic commands and was not as comfortable using commands such as `grep` and `awk`. In the past, I was also not as experienced using regular expressions, piping, flags or redirection within the command line. After taking this course, I have a greater understanding of how the Linux command line functions and how to combine commands to create valuable output. One interesting website that we made use of to understand regular expressions is the [Regex Crossword](https://regexcrossword.com) website. This website has a variety of different regular expression crosswords in the following 
 format: 
 
 ![Regex Crossword](/volapuk.png)
 
 I found this site to be an engaging way to learn regular expressions. I
-previously had an data analytics internship where I had to use regular
+previously had a data analytics internship where I had to use regular
 expressions and this website would have been a great way to learn.
 
 ## **Bash Scripting**
@@ -243,17 +243,24 @@ our `.zshrc` files to customize how the shell looked and worked. Originally, I
 was disappointed with the default shell settings in Terminal on my Mac. After 
 editing the `.zshrc` file, the Z shell is much more helpful and informational
 than before. Most of the changes have just made the shell more visually 
-pleasing. Here is what it looks like now after using [Pure](https://github.com/sindresorhus/pure):
+pleasing. Here is what it looks like now after installing [Pure](https://github.com/sindresorhus/pure):
+
+![Terminal](/shell.png)
+
+(This is actually a significant improvement from before!)
 
 ## **Visual Studio Code**
 
 One of the most interesting topics we covered was the IDE called Visual Studio 
 Code. I have used Visual Studio Code for almost all of my programming since it
 is free and easy to use. However, I had never used it to its fullest extent. 
-We went through many helpful extensions, keyboard shortcuts and snippets. I
+We went through many helpful extensions, keyboard shortcuts, and snippets. I
 found the snippets to be the most interesting part of this section. This was 
 a feature that I did not know about before. However, they are now something that
-I use all the time when programming. 
+I use all the time when programming. The code snippets are "templates that make
+it easier to enter repeating code patterns, such as loops or
+conditional-statements". I now find myself always using the custom snippets that
+we made in class. 
 
 ## **Git & GitHub**
 
