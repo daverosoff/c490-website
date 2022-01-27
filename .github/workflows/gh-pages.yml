@@ -26,12 +26,12 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+        # if: github.ref == 'refs/heads/main'
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           EXTERNAL_REPOSITORY: daverosoff/c490
           PUBLISH_BRANCH: main
           PUBLISH_DIR: ./public
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        # with:
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
           # publish_dir: ./public
