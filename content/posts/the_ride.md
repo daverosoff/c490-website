@@ -82,5 +82,5 @@ Lastly, we've learnt to work with Hugo which is a static site generator written 
 
 
 - This experience has definitely paved the way for me to transfer these skills that I've gained in navigating Linux OS to my current internship in the System’s Administration field, as the devices that I interact with everyday use Linux as their OS.
-- This class increase my curiosity towards learning more about Linux; I will definitely be researching more about Linux and try to learn new techniques.
-- Our education at The College of Idaho is focused on teamwork, and this class has a major emphasis on teamwork. I feel like the most experience that contributed most to my learning is definitely collaborating with my classmates and working together.
+- This class increase my curiosity towards learning more about Linux; I will definitely be researching more about Linux and try to learn new techniques to script and involve Linux baised tools in my other projects.
+- Our education at The College of Idaho is focused on teamwork, and this class has a major emphasis on teamwork. I feel like the most experience that contributed most to my learning is definitely collaborating with my classmates and working together. Epically after seeing how the collaboration is the corner stone of the tech industry this only builds my skillset bigger, stronger, and making it easy to work with other people.
