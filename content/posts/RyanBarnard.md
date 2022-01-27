@@ -11,18 +11,20 @@ This page is a summary of the works that I completed in my CSC-490 class at The 
 This course was a special topics course that focused on the command line use within a linux environment in WSL2, IDE 
 use with Visual Studio Code, and the use of the git version control system. Though this course is not required
 for the computer science major, I was very excited to take it as I knew the planned topics would be provide
-very useful knowledge for anyone wanting to get into software development.
+very useful knowledge for anyone wanting to get into software development which is a field I am considering pursuing
+a career in post-graduation.
 
 
 ## Command Line Use
 
 In this class I learned not only how to navigate a linux 
 system from the command line, but how to do so proficiently.
-I began by using a bash shell, but eventually switched to using
-zsh where I was able to modify my shell to look exactly how I want.
-With zsh I also learned how to use a plugin manager to
-load and use various plugins. I also learned to be proficient with
-Vim for the purpose of having solid knowledge of a powerful
+I began by using a bash shell where I learned the basics of directory
+navigation, scripting, and package installation using apt. 
+Eventually, however, I switched to using zsh where I was able
+to modify my shell to look exactly how I want. With zsh I also
+learned how to use a plugin manager to load and use various plugins.
+I also learned to be proficient with Vim for the purpose of having solid knowledge of a powerful
 text editor that I will have access to in a large number of environments.
 ![My Shell](/RyanBarnardZsh.png)
 
@@ -95,5 +97,23 @@ new keyboard shortcuts to increase my efficiency by decreasing how much I need
 to use my mouse and I learned how to properly configure my launch.json file to support
 debuggers for various languages that I can now activate with keyboard shortcuts.
 I also learned how to write my own snippets so that I can have snippets 
-configured exactly the way I like.
+configured exactly the way I like. One of my goals for the future is to continue
+practicing using as many keyboard shortcuts as I can in order to reduce how much
+I have to use my finnicky laptop touchpad mouse.
 
+## Conclusion
+
+In conclusion, I have learned a number of skills in this class that will be
+very applicable in a real job setting. I now know how to appropriately use
+version control and how to create pull requests to contribute to projects. I
+also know how to perform a number of actions from the command line and how I can
+use Vim from the command line to edit text files. I learned that there is even
+more I can do to make myself even more comfortable with my IDE and increase
+my efficiency when coding. I plan to practice using the skills I have learned in
+this class by finding projects of interest to me on GitHub and contributing to them.
+This will allow me to not only practice coding, but also coding in various languages
+in styles that are acceptable by each project. It will also allow me to practice going
+through a workflow routine.
+In all, I am very glad I chose to take this course even though it was not required as
+I feel that I have learned things that will help me in whatever development related
+job I may end up in in the future.
