@@ -10,16 +10,7 @@ draft: true
 ## **Intro**
 
 The course CSC-490: Topics in Computer Science at The College of Idaho, which
-was titled Practical Software Engineering, has been an extremely valuable and 
-engaging course. Although many of the topics covered in this course were topics
-that I had previously had experience in, I was able expand on my previous 
-experiences. Throughout the course, I was consistently learning something new
-and applying the newly-learned skill in realistic assignments. This is a class
-that I wish I had been able to take earlier in my college career because it
-covers many of the necessary skills that I had to learn on my own. I believe
-that this specific Topics in Computer Science course will be incredibly helpful
-to help prepare the underclassmen going into Computer Science and to help
-reinforce important skills for the upperclassmen. 
+was titled Practical Software Engineering this year, has been an extremely valuable and engaging course. Although many of the topics covered in this course were topics that I had previously had experience in, I was able expand on my previous  experiences. Throughout the course, I was consistently learning something new and applying the newly-learned skill in realistic assignments. This is a class that I wish I had been able to take earlier in my college career because it covers many of the necessary skills that I had to learn on my own. I believe that this specific Topics in Computer Science course will be incredibly helpful to help prepare the underclassmen going into Computer Science and to help reinforce important skills for the upperclassmen. 
 
 ## **Linux Command Line**
 
@@ -43,18 +34,18 @@ expressions and this website would have been a great way to learn.
 
 ## **Bash Scripting**
 
-After learning about the Linux command line, we moved on to bash scripting. This
+After learning about the Linux command line, we moved on to Bash scripting. This
 is one of the topics that I had almost no previous experience with. The only 
 related experience I had was creating batch files on Windows. Similar to 
 learning the Linux command line, we used another [Ryan's Tutorial](https://ryanstutorials.net/bash-scripting-tutorial/).
 After completing this tutorial and completing the assigned projects in class, 
-I feel confident that I can create helpful bash scripts. In the future, I can
+I feel confident that I can create helpful Bash scripts. In the future, I can
 see myself using these skills both professionally and personally to automate
-certain command line tasks. Our four projects in bash scripting were the
+certain command line tasks. Our four projects in Bash scripting were the
 following:
 
 1. `create_new_user.sh`
-```
+```bash
 #!/bin/bash
 
 # Creates a new user account
@@ -98,7 +89,7 @@ dscl . -create /Users/"${USER_NAME}" RealName "${COMMENT}"
 exit 0
 ```
 2. `find_big_files.sh`
-```
+```bash
 #!/bin/bash
 
 # Prints the sizes (in human-readable form) and names of the 5 largest items—files 
@@ -134,7 +125,7 @@ du -A -ha "${DIRECTORY}"| sort -hr | tail -n+2 | head -5 # exclude the total
 exit 0
 ```
 3. `test_urls.sh`
-```
+```bash
 #!/bin/bash
 
 # Reads URLs from a file (without validating them) and tests 
@@ -182,7 +173,7 @@ done
 exit 0
 ```
 4. `fix_symlinks.sh`
-```
+```bash
 #!/bin/bash
 
 # This script finds all symlinks underneath a given directory
@@ -238,16 +229,47 @@ exit 0
 
 
 ## **Vim & Z Shell**
+During the course we also familiarized ourselves with Vim as a text editor. I 
+again had previous experience using Vim from previous coding experiences.
+However, I still believe the section of the class covering Vim was important
+because I was able to expand on my abilities and learn some new techniques 
+within Vim. Learning all the available commands in Vim allows you to maneuver 
+the interface so much more efficiently. Although I am nowhere near mastering
+Vim, I am much more proficient at using it. 
+
+Learning about the Z shell was something that was completely new to me. I did 
+not know the real differences between a Bash shell and the Z shell, even though
+the Z shell was the one I was using on my Mac. Furthermore, we were able to edit
+our `.zshrc` files to customize how the shell looked and worked. Originally, I
+was disappointed with the default shell settings in Terminal on my Mac. After 
+editing the `.zshrc` file, the Z shell is much more helpful and informational
+than before. Most of the changes have just made the shell more visually 
+pleasing. Here is what it looks like now after using [Pure](https://github.com/sindresorhus/pure):
 
 ## **Visual Studio Code**
 
+One of the most interesting topics we covered was the IDE called Visual Studio 
+Code. I have used Visual Studio Code for almost all of my programming since it
+is free and easy to use. However, I had never used it to its fullest extent. 
+We went through many helpful extensions, keyboard shortcuts and snippets. I
+found the snippets to be the most interesting part of this section. This was 
+a feature that I did not know about before. However, they are now something that
+I use all the time when programming. 
+
 ## **Git & GitHub**
 
+Git & GitHub are both incredibly important to be familiar with in the software 
+development world. Git is a very popular version control system and can be
+helpful with handling projects of any size. The section of the course covering
+Git & GitHub built upon my previous experiences and helped me better understand
+how to approach different situations. For example, when to use a merge or
+rebase. Learning the 'best' practices for Git & GitHub will be helpful to me in
+the future as I will likely be using both very often. 
 
+## **Conclusion**
 
-
-
-
-
-
-
+Overall, CSC-490: Topics in Computer Science has been a very worthwhile learning
+experience. Each of the topics we covered in class will be helpful in my future
+projects. Having experience with these topic gives me a great platform to 
+continue my journey as a developer and programmer. I am excited to begin diving 
+deeper into these topics and see what else I can learn!
