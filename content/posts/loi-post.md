@@ -34,10 +34,11 @@ We started off by learning about Linux. [Ryan's Linux tutorial](https://ryanstut
 > Learn how to kill programs that have hung and put jobs in the background.
 13. [Bash Scripting](https://ryanstutorials.net/linuxtutorial/scripting.php)
 > Get the computer to do tedious and repetitive tasks for you.
-
+***
 
 ### VScode
 ![VSCode logo](https://shanebart-cdn.azureedge.net/wp-content/uploads/2019/05/5k4h36j3h4j.png)
+<img src="5k4h36j3h4j.png" width="20" height="10">
 
 ### Git
 ![GitHub logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
