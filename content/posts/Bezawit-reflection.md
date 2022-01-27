@@ -9,7 +9,7 @@ draft: true
 
 I joined this class because I was interested in learning more topics on computer science, software development. When Dr. Rosoff introduced the class in the previous class, I was taking with him, a spark of curiosity was created in me, and that spark is turning into a flame of desire to learn and explore more now that I have taken the class. 
 
-Joining this class, I had no prior experience to any of the topics we covered: the Linux operating system, bash script, git and GitHub, and visual studio. But now I can confidently say I know how to get around through these working environments. I have written some bash scripts such as this [bigfiles.sh][bigfiles.sh] that can look at a directory and detect the biggest five files, which can be useful to see if we want to clean up some space and want to know what is taking up the most space. I also contributed this website that you are reading this from using the combination of GitHub, visual studio and my command terminal.
+Joining this class, I had no prior experience to any of the topics we covered: the Linux operating system, bash script, git and GitHub, and visual studio. But now I can confidently say I know how to get around through these working environments. I have written some bash scripts such as this [bigfiles.sh][https://github.com/BezawitKassaye/c490-website/blob/ae7cbb46c130e7b4df25c649ef55c91771c58ce5/content/bigfiles.sh] that can look at a directory and detect the biggest five files, which can be useful to see if we want to clean up some space and want to know what is taking up the most space. I also contributed this website that you are reading this from using the combination of GitHub, visual studio and my command terminal.
 
 
 ### What I learnt
