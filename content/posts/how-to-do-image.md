@@ -13,7 +13,8 @@ To link your image from a post, use code like this:
 ```md
 ![Here is frog](/frog.jpg)
 ```
-Notice that we don't type `../frog.jpg` or `../../static/frog.jpg`
+The text in [square brackets] is the alt text that is necessary
+for accessibility. Notice that we don't type `../frog.jpg` or `../../static/frog.jpg`
 or anything that is so intuitive. The address is translated by Hugo's
 backend into the correct thing. Here's an example:
 
