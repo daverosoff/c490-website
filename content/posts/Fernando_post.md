@@ -15,14 +15,14 @@ I never worked before on GitHub in the past, and I found this part of the term c
 Among all the information gained this winter term,this course provided me with new tools such as GitHub that are strongly used for many companies. Learning Linux and GitHub is helping me to build my portfolio that I will present to companies in future when I start applying for jobs. I think this is relevant becuase it will allow me to show my skills and effort put to build a strong portfolio.  
 
 ### **Curiosity and awareness about new ideas or techniques.**
-While we worked with Linux, I learned a couple of codes such that `chmod` that allow the user, group and others to `rwx` into a file or directory according to the access provided. I found this part really intersting becuase ths is a way to secure a file or directory from others. I want to say this is a very good tecninc  
+While we worked with Linux, I learned a couple of codes such that `chmod` that allow the user, group, and others to `rwx` into a file or directory according to the access provided. I found this part interesting because this is a way to secure a file or directory from others. I want to say this is a very good technic for cybersecurity since it restrings the access to a file. In fact, if another user wants to read what it is in a private file where just my user is allowed to read and execute, they won’t be able to run it since I did not give them access to it. I think this is a very good technic to protect our information. Another topic that I really liked was talking about `KeyPass`. As programmer, I know my job is to use different passwords for every single account I register. This is important because in case of cyber-attacks, they won’t have access to all my accounts. However, during this course, I learned another way to save my passwords in a safer way and run them without the necessity to write them every single time. Also, this program builds strong passwords. I consider these two parts interesting and important to take care for possible cyber-attacks.   
 
 ### **Classroom experience contribution upon the rest of your education.**
-
+Overall, this experience has helped me to worked in a more professional manner. By my past experiences, I got the knowledge of problem-solving but I never published my work in any place. Now, we this information, I’m able to post it on my account and use my works as part of my portfolio.
 ### **Exploring new parts of software development.**
-
+This course made me curios to learn more about Linux in order to develop a better sense of cyber security. We learned a couple of codes during class that are actually useful to protect my information, and I think I can go deeper in this topic and learn more about cyber awareness and security. 
 ### **Aspects of the classroom experience that contributed most to my learning**
-
+As I mentioned above, Linux and GitHub are the two experiences during class that contributed most to my learning. I got interested on these two topics specially because Linux can help me to manipulate my personal machine in a deeper and professional way, and GitHub allows me to build my portfolio that I will show for future jobs, research and internships.  
 ### **What new insights did you develop regarding your career plans as a result of this class?**
 
 ### **How would you describe this class experience to a potential employer in a way that synthesizes knowledge and skills gained?**
