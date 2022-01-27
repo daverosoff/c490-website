@@ -21,15 +21,15 @@ system from the command line, but how to do so proficiently.
 I began by using a bash shell, but eventually switched to using
 zsh where I was able to modify my shell to look exactly how I want.
 With zsh I also learned how to use a plugin manager to
-load and use various plugins. I learned to be proficient with
+load and use various plugins. I also learned to be proficient with
 Vim for the purpose of having solid knowledge of a powerful
-text editor that I will have access to in almost any environment.
+text editor that I will have access to in a large number of environments.
 ![My Shell](/RyanBarnardZsh.png)
 
 
 ## Bash Scripting
 
-I also learned how to write scripts in bash. One example of a script
+While learning to use Vim, I also learned how to write bash scripts. One example of a script
 that I wrote for this class is shown below. The purpose of this script is
 to read the URLS within a given file and check that they are valid URLs.
 
@@ -79,16 +79,21 @@ be quite time consuming.
 I learned how to effectively use git version control system to
 collaborate on projects and share them on github. In fact, I have
 already created a couple repositories that are posted on [my github page](https://github.com/RMBarnard).
-I am quite excited to now have the knowledge to use git as it opens up the
-opportunity for me to find open-source projects of interest to me and contribute to them.
+During the time we spent on version control, we went over what a
+typical workflow might look like as a developer. You sit at your computer, pull
+any changes that may have been made since the last time you worked,
+checkout your topic branch and begin working and making commits as you go.
+We then went over the pull request request process and learned how we can contribute
+the changes we made on our own fork and branch into a shared project.
 
 
-## Visual Studio
+## Visual Studio Code
 
 Having already been a Visual Studio Code user for a while, I was already quite
 familiar with much of the material we covered in class. I did, however, learn many
 new keyboard shortcuts to increase my efficiency by decreasing how much I need
-to use my mouse.
-I also learned how to write my own snippets so that I can have snippets in the
-exact styling that I like to code with. 
+to use my mouse and I learned how to properly configure my launch.json file to support
+debuggers for various languages that I can now activate with keyboard shortcuts.
+I also learned how to write my own snippets so that I can have snippets 
+configured exactly the way I like.
 
