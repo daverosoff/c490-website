@@ -11,4 +11,16 @@ The other side of the class was focused on Visual Studio (VS). I had some experi
 
 I never worked before on GitHub in the past, and I found this part of the term challenging since to set up the configurations to connect from my local machine to GitHub was quite difficult and confuse from the Linux terminal. But doing branchs, commits, push, pull, remote or clone from VS to GitHub was way easier to manipulate. Besides how challeging was git, I found this section of the semester really helpfull since I know this information will help me for future projects and specially jobs.
 
+### **Applying the learning to a new context.**
 
+### **Curiosity and awareness about new ideas or techniques.**
+
+### **Classroom experience contribution upon the rest of your education.**
+
+### **Exploring new parts of software development.**
+
+### **Aspects of the classroom experience that contributed most to my learning**
+
+### **What new insights did you develop regarding your career plans as a result of this class?**
+
+### **How would you describe this class experience to a potential employer in a way that synthesizes knowledge and skills gained?**
