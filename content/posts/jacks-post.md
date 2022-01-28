@@ -2,7 +2,7 @@
 title: "j-term jackposting"
 author: "jack kincaid"
 date: 2022-01-26T12:50:27-08:00
-draft: true
+draft: false
 ---
 
 # A reflection on CSC490-22
