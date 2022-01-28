@@ -2,7 +2,7 @@
 title: "Makenzie's Reflection"
 author: Makenzie Stapley
 date: 2022-01-26T13:34:48-07:00
-draft: true
+draft: false
 ---
 
 ## My Background
@@ -23,6 +23,8 @@ The projects we accomplished in class and/or as homework were beneficial. We cre
 
 Visual Studio Code was the section that made me the most excited. Before this course, I was solely using Anaconda (Syder and Jupyter Notebooks) to program. I'm not sure if I just don't know how to utilize that software properly, or if it just can't do what I wanted it to do. Either way, I was (and still am) very excited about VS Code. It is extremely customizable, so I can get it set up in a way that makes sense to me. I've started to learn keyboard shortcuts that allow my hands to write and execute code closer to the speed my mind works. With more time and practice, I think I can almost eliminate that disconnect.
 
+We used VS Code in two facets in this course. First, we approached coding challenges in class to practice keyboard shortcuts and make us better at coding in general. I felt like this was a great use of class time. There's only so much you can learn from watching someone code, so the in-class practice was fun and valuable for learning. I know I'm far from being proficent in this tool. However, I do enjoy using it, so I will get there soon!
+
 ### Git
 
 I had some experience with GitHub before this course. I learned how to use it to share the code I wrote this summer with others on the research team. However, I didn't know anything about git on my local machine. Version management is exciting to me. I can't tell you how many times I've completely broken code that works in an attempt to improve something. Now, I know how to just get back to the code that worked without having to manually go in and un-do all of my changes.
@@ -31,4 +33,10 @@ Then, there's the collaboration aspect of git when used in combination with GitH
 
 ## CSC-490 Soft Skills
 
-I always like to note the soft skills I gained and/or improved when reflecting on anything. At times, these are the most important areas of growth. For example, since I don't have much experience working on code with other people. I came into this course not knowing how to talk about code. I didn't have necesary skills to ask or answer questions about these topics in a beneficial way. However, through in-class work time and working on homework with a peer, I feel like I have the vocabulary and ability to ask questions and problem-solve with others. This class has made computer science feel less isolated.
+I always like to note the soft skills I gained and/or improved when reflecting on anything. At times, these are the most important areas of growth. For example, since I don't have much experience working on code with other people, I came into this course not knowing how to talk about code. I didn't have necesary skills to ask or answer questions about these topics in a beneficial way. However, through in-class work time and working on homework with a peer, I learned these skills through practice.
+
+I also learned how to collaborate as well. I worked with a peer on most assignments, and we have very different coding styles. This pushed us to work together to find ways to fix problems without driving each other crazy. I believe this will be a very useful skill if/when I find myself collaborating with coworkers in the future.
+
+## Key Takeaways
+
+Overall, this course was an extremely beneficial learning experience for me. I may not have mastered any of the topics we went over, but I did start the learning process for all of them. I hope to continue to play around with these things as I continue to build on my skillset and become a better coder. I enjoyed this class, and I think I learned a lot!
